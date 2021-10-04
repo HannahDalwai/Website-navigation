@@ -46,7 +46,7 @@ li a:hover {
 
 li a .active {
     
-    background-color: #70855F;}
+    background-color: #397037;}
     
 #search{ 
     
@@ -58,7 +58,7 @@ li a .active {
  a {
 display:inline-block;
 color:#F5E2BC;
-background-color: #66B032;
+background-color: #397037;
 text-decoration: none;
 padding: 8px 16px; 
 overflow: hidden;
@@ -106,9 +106,9 @@ form{
   
 #bgimg {
     /* The image used */
-    background-image: url("images/fade.webp");
+    background-image: url("images/marble.jpg");
   
-    
+
     /* Full height */
     height: 100%;
   
@@ -118,3 +118,34 @@ form{
     background-size: cover;
   }
   
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    
+        margin-left: auto;
+        margin-right: auto;
+      
+   
+ }
+
+
+ .search {
+        position: relative;
+        left:20%;
+        top:25%;
+        width:30%;
+    
+ }
+
+
+ .table {
+
+        margin-left: auto;
+        margin-right: auto;
+      
+ }
