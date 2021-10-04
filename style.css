@@ -119,21 +119,6 @@ form{
   }
   
 
-  .footer {
-    
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:#666;
-    color: rgb(0, 0, 0);
-    text-align: center;
-  }
-    
- .nemo
-{
-    margin:0;
-}
-
 
  .search {
         position: relative;
@@ -190,8 +175,10 @@ form{
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  </style>
 
+
+  fieldset{
+ align:center;
 
 
 
