@@ -3,21 +3,27 @@
     <head>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+
         <ul>
      <li><a href="home-page.html">Home</a></li>
       <li><a href="about.html">About</a></li>
         <li> <a class="active" href="contact-page.html">Contact</a></li>
+
         </ul><br>
-    </body>
+   
     <h1>Contact Page</h1>
+
+    <body id="bgimg">
+        
+    
     <fieldset>
             
         <legend>Contact Details</legend>
         
-   </html>
    
-   <form>
+   
+   <form method="POST" action="https://formspree.io/f/mrgrdlle">
+    
        <label for="name">Name:</label><br>
        <input type="text" id="name" name="name"  placeholder="Enter your name"autofocus><br>
        <label for="Telephone">Telephone:</label><br>
@@ -25,10 +31,29 @@
        <label for="E-mail">E-mail:</label><br>
        <input type="text" id="E-mail" name="E-mail"   placeholder="Enter your E-mail"autofocus> <br>
        <label for="comments">Comments:</label><br>
-       <textarea name="comments"   placeholder="Enter your comments"autofocus> </textarea>
+       <textarea name="comments"   placeholder="Enter your comments"autofocus> </textarea> <br>
+       <input type="submit"/>
 
      </form> 
-   </fieldset>
+</fieldset>
 
+<table>
+    <tr>
+      <th>Office Hours</th>
+      <th>Location/th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Mon-Fri: 8am-5pm</td>
+      <td>1 Imaam Road, Cape Town</td>
+      <td>South Africa</td>
+    </tr>
+    <tr>
+      <td>Sat:10am-2pm Sun:CLOSED</td>
+      
+    </tr>
+  </table> 
+
+</body>
 </html>
 
