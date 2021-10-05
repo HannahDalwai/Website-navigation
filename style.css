@@ -74,6 +74,7 @@ text-align: center;
 /*form text*/
 fieldset{
     width: max-content;
+    margin-left: 520px
 }
 
 
@@ -84,6 +85,7 @@ fieldset{
     background: #092834;
     color:white;
 }
+
     
 
 
@@ -97,7 +99,10 @@ fieldset{
 }
 
 div{
-    align: center;
+    display:block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -125,7 +130,8 @@ div{
         left:20%;
         top:25%;
         width:30%;
-    
+        padding-top: 10px;
+        padding-bottom: 10px;
  }
 
 
@@ -181,5 +187,8 @@ ol {
     list-style-type: none;
 }
 
-
+table{
+    margin-top: 100px;
+    text-align: center;
+}
 
