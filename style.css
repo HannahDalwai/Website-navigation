@@ -112,7 +112,8 @@ div{
   
 #bgimg {
     /* The image used */
-    background-image: url("images/marble.jpg");
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(29, 99, 38, 0.73)), url("images/marble.jpg");
   
 
     /* Full height */
