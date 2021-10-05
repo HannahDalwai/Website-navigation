@@ -125,7 +125,6 @@ div{
     background-size: cover;
     
   }
-  
 
 
  .search {
@@ -188,5 +187,9 @@ table{
     margin-top: 100px;
     text-align: center;
     margin-left: 350px;
+}
+
+#main {
+    margin-left: ;
 }
 
