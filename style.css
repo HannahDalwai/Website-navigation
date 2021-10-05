@@ -93,6 +93,7 @@ fieldset{
 
 h1{
     font-style: serif;
+    margin-left: 530px;
 }
 fieldset{
     align-self: center;
@@ -121,6 +122,7 @@ div{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
   }
   
 
