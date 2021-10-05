@@ -135,13 +135,6 @@ div{
  }
 
 
- .table {
-
-        margin-left: auto;
-        margin-right: auto;
-      
- }
-
  .container {
     position: relative;
     width: 50%;
@@ -185,10 +178,12 @@ div{
 
 ol {
     list-style-type: none;
+    margin-left: 550px;
 }
 
 table{
     margin-top: 100px;
     text-align: center;
+    margin-left: 350px;
 }
 
