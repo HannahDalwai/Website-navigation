@@ -58,7 +58,7 @@ li a .active {
  a {
 display:inline-block;
 color:#F5E2BC;
-background-color: #397037;
+background-color: #5E503F;
 text-decoration: none;
 padding: 8px 16px; 
 overflow: hidden;
@@ -68,8 +68,8 @@ text-align: center;
 
 /*change hover color*/
  a:hover {
-    background-color: #B2D732;
-    color: #F5E2BC; 
+    background-color: #C6AC8F;
+    
 }
 /*form text*/
 fieldset{
@@ -112,7 +112,7 @@ div{
   
 #bgimg {
     /* The image used */
-    background-image:url("images/marble.jpg");
+    background-image:url("job545-wit-31.jpg");
   
 
     /* Full height */
@@ -147,22 +147,7 @@ div{
     height: auto;
   }
   
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 30%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color:#397037;
-  }
-  
-  .container:hover .overlay {
-    opacity: 1;
-  }
+
   
   .text {
     color: white;
@@ -191,3 +176,4 @@ table{
 #main {
     margin-left: ;
 }
+
