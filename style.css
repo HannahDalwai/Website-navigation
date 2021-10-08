@@ -41,12 +41,12 @@ li a {
 /* The :hover selector is used to select elements when you mouse over them. */
 li a:hover {
     /*  */
-    background-color: #666;
+    background-color: #C6AC8F;
 }
 
 li a .active {
     
-    background-color: #397037;}
+    background-color: #C6AC8F;}
     
 #search{ 
     
@@ -84,11 +84,14 @@ fieldset{
     text-align: center;
     background: #5E503F;
     color:white;
+    font font-family:serif ;
 }
 
     
 
-
+legend{
+    color: black;
+}
 
 
 #main{
@@ -97,6 +100,8 @@ fieldset{
 }
 fieldset{
     align-self: center;
+    background-color: #5E503F;
+     color: white;
 }
 
 div{
