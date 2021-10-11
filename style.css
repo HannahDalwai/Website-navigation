@@ -46,7 +46,7 @@ li a:hover {
 
 li a .active {
     
-    background-color: #C6AC8F;}
+    background-color: #ffb6c1 ;}
     
 #search{ 
     
@@ -68,7 +68,7 @@ text-align: center;
 
 /*change hover color*/
  a:hover {
-    background-color: #C6AC8F;
+    background-color: #5b2d1d;
     
 }
 /*form text*/
@@ -169,7 +169,7 @@ div{
 
 ol {
     list-style-type: none;
-    margin-left: 550px;
+    flex-wrap: wrap;
 }
 
 table{
