@@ -243,9 +243,10 @@ div{
         justify-content: space-between;
         flex-wrap: wrap;
         gap: 40px;
-        
+       
 }
 
   .container{
     margin-left:12%;
     margin-top:1% ;
+  }
