@@ -226,27 +226,22 @@ body {
   }
   
   .flip-card-back{
-    background-color: #0b2e56;
-    color: #a4c5fa;
+    background-color: #5b2d1d;
+    color: #C6AC8F;
     transform: rotateY(180deg);
   }
 
-span{
-    color: #f1b94f;
-}
 
 
 
-div{
-   
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 40px;
-       
-}
 
   .container{
     margin-left:12%;
     margin-top:1% ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+   
+}
   }
