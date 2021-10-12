@@ -252,16 +252,16 @@ body {
 
 
 
-   /*body
+   body
 {
   margin: 0;
   padding: 0;
   
   /* make it look decent enough */
-  /*background: #232323;
-  color: #cdcdcd;
+  background: #cdcdcd;
+  color: #83604a;
   font-family: "Avenir Next", "Avenir", sans-serif;
-} */
+} 
 
 #menuToggle
 {
@@ -279,14 +279,14 @@ body {
 #menuToggle a
 {
   text-decoration: none;
-  color: #232323;
+  color: white;
   
   transition: color 0.3s ease;
 }
 
 #menuToggle a:hover
 {
-  color: tomato;
+  color:#c4b29d;
 }
 
 
@@ -403,4 +403,11 @@ body {
 #menuToggle input:checked ~ ul
 {
   transform: none;
+}
+
+
+
+
+body{
+  background-color: #C6AC8F;
 }
