@@ -58,7 +58,7 @@ li a .active {
  a {
 display:inline-block;
 color:#F5E2BC;
-background-color: #5E503F;
+background-color: #3b4e68;
 text-decoration: none;
 padding: 8px 16px; 
 overflow: hidden;
@@ -68,13 +68,13 @@ text-align: center;
 
 /*change hover color*/
  a:hover {
-    background-color: #5b2d1d;
+    background-color: #ef786d;
     
 }
 /*form text*/
 fieldset{
     width: max-content;
-    margin-left: 520px
+    margin-left: 500px
 }
 
 
@@ -82,8 +82,8 @@ fieldset{
 .header {
     padding: 60px;
     text-align: center;
-    background: #5E503F;
-    color:white;
+    background:#729aa4;
+    color:#ededed;
     font font-family:serif ;
 }
 
@@ -100,8 +100,8 @@ legend{
 }
 fieldset{
     align-self: center;
-    background-color: #5E503F;
-     color: white;
+    background-color: #f0d6c7;
+     color:black;
 }
 
 div{
@@ -117,7 +117,7 @@ div{
   
 #bgimg {
     /* The image used */
-    background-image:url("job545-wit-31.jpg");
+    background-image:url("images/wow.jpeg");
   
 
     /* Full height */
@@ -279,8 +279,8 @@ div{
   padding: 0;
   
   /* make it look decent enough */
-  background:#5b2d1d;
-  color: #83604a;
+  background:#ebf39e;
+  color: #122b12;
   font-family: "Avenir Next", "Avenir", sans-serif;
 } 
 
