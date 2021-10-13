@@ -1,16 +1,23 @@
 
 
-@media only screen and (min-width:300){
+@media only screen and (min-width:200){
 .contact{
-    margin-left: 0%;
+    margin-left: 1%;
+}
 }
 
 
 
-}
 
 
 
 
 
+@media only screen and (max-width: 400px) {
+    form{
+      align-self: left;
+    }
+    span{ color: #3b536a;
 
+    }
+  }
