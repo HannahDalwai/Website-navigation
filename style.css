@@ -593,3 +593,66 @@ body{
 
 
 
+
+
+
+
+body {
+  padding: 1.0rem;
+  font-size: 62.5%;
+  font-family: system-ui;
+}
+h1 {
+  font-size: 1.6rem;
+}
+h2 {
+  margin: 1.5em 0px 0.5em;
+  font-size: 1.4rem;
+}
+.moving {
+  position: relative;
+  width: 160px;
+  height: 32px;
+  border: 3px solid #ccc;
+}
+
+.moving-block {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0%;
+  height: 32px;
+  background: #364e67;
+  animation: move 2500ms linear 0s infinite normal; 
+}
+
+.moving-block.jump-none {
+  animation-timing-function: steps(5, jump-none);
+}
+.moving-block.jump {
+  animation-timing-function: steps(5);
+}
+.moving-block.jump-6 {
+  animation-name: move-jump;
+  animation-timing-function: steps(5);
+}
+
+
+
+@keyframes move {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes move-jump {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 125%;
+  }
+}
