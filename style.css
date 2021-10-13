@@ -309,7 +309,7 @@ div{
 
 #menuToggle a:hover
 {
-  color:#c4b29d;
+  color:#C6AC8F;
 }
 
 
@@ -322,7 +322,7 @@ div{
   top: -7px;
   left: -5px;
   
-  cursor: pointer;
+  cursor: move;
   
   opacity: 0; /* hide this */
   z-index: 2; /* and place it over the hamburger */
