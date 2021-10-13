@@ -84,7 +84,8 @@ fieldset{
     text-align: center;
     background:#729aa4;
     color:#ededed;
-    font font-family:serif ;
+    font font-family:serif;
+    min-height: 50%;
     
 }
 
@@ -227,7 +228,7 @@ table{
 }
 
 .flip-card-back{
-  background-color: #5b2d1d;
+  background-color: #374a64;
   color: white;
   transform: rotateY(180deg);
  
