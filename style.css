@@ -544,6 +544,7 @@ body{
   margin: 10px 0 17px 0;
 }
 .row section .bottom a{
+  
   text-decoration: none;
   background: #ff7979;
   color: #fff;
@@ -553,6 +554,12 @@ body{
   font-weight: 400;
   transition: all 0.3s ease;
 }
+
+
+
+
+
+
 .row section .bottom a:hover{
   transform: scale(0.97);
 }
