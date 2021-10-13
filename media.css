@@ -1,11 +1,9 @@
-/*form*/
 
-@media only screen and (max-width:300){
+
+@media only screen and (min-width:300){
 .contact{
     margin-left: -100;
 }
-
-
 
 }
 
