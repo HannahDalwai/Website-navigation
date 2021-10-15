@@ -52,8 +52,12 @@
 
 
      @media screen (min-width: 768px) and (max-width: 1024px)
-     { .flipcard{
+     { h1 .title-world title-world-1{ 
+       size:400%
        
+       
+
+
 
   
      }
