@@ -73,14 +73,13 @@
       font-size: 14px;
       color: blanchedalmond;
     }
-    a{
-      color: blanchedalmond;
-    }
+    
   }
   
   @media (orientation: landscape) and (max-height: 500px) {
     .footer {
       position: unset;
+      color: blanchedalmond;
     }
   }
   
