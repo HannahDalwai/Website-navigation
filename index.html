@@ -9,7 +9,7 @@
         
     </head>
         <link rel="stylesheet" href="style.css">
-
+        <link rel="stylesheet" href=".footer.css" >
 
 
     </head>
@@ -128,6 +128,51 @@
 
 
 
+
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Full name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name here..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Phone number</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Place your number here..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Reason for contacting.</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="JO">Job offer</option>
+          <option value="FL">Free lancing</option>
+          <option value="other">other</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Comment</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+      <br>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
 
 
 
