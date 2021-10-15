@@ -1,5 +1,13 @@
 
+ @media screen and (min-width:1000px){
 
+  #main{
+    margin-left: 300px;
+  }
+
+
+
+ }
 
 
 
@@ -14,8 +22,11 @@
   @media screen and (max-width:300px) {
     .bgimg{ 
       display: none;
-
     }
+  } 
+  #main{
+    margin-left: 0;
+  }
 
 
     }
@@ -27,7 +38,10 @@
 
     @media screen and (max-width: 600px) {
       header{
-        margin-left:0px;
+        float: left;
       } 
+      #main{
+        margin-left: 0;
+      }
      
      }
