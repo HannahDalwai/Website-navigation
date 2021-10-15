@@ -26,8 +26,8 @@
     /*table */
 
     @media screen and (max-width: 600px) {
-      .table{
-        margin-left:11px;
+      header{
+        margin-left:0px;
       } 
      
      }
