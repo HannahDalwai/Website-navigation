@@ -186,9 +186,9 @@ div{
 
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
-  perspective: 1000px;
+  width: 300%;
+  height: 300%;
+  perspective: 1000%;
 }
 
 .flip-card-inner {
@@ -235,12 +235,12 @@ div{
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      gap: 40px;
+      gap: 40%;
       
 }
 
 .container{
-  margin: left 20 %
+  margin: left 20%
   margin-top:1% ;
 }
 
